@@ -110,3 +110,9 @@ class Window(object):
         self.button_plot.setText(_translate("MainWindow", "Plot"))
         self.button_exit.setText(_translate("MainWindow", "Exit"))
         self.label_an.setText(_translate("MainWindow", "an"))
+
+    def close_window(self):
+        """
+        Close the application.
+        """
+        QtCore.QCoreApplication.instance().quit()

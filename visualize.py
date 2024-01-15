@@ -8,7 +8,10 @@ class FourierSeriesApp(FourierSeries, Window, QtWidgets.QMainWindow):
     """
 
     def __init__(self, safe_dict):
-        super(FourierSeriesApp, self).__init__(safe_dict)
+        # Call the __init__ method of the superclasses in the correct order
+        QtWidgets.QMainWindow.__init__(self)
+        Window.__init__(self)
+        FourierSeries.__init__(self, safe_dict)
 
         # Setup GUI
         self.setup_ui(self)
