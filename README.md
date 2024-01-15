@@ -1,8 +1,8 @@
 # fourier-series-visualization
 
-This project is aimed at creating an interactive program for visualizing the Fourier series of a given function with GUI. Fourier series decomposition allows representing periodic functions as a sum of sinusoidal components, making it valuable in signal processing, image compression, and various scientific applications.
+This project is aimed at creating an interactive program for visualizing the Fourier series decomposition of a given function with GUI. Fourier series decomposition allows representing periodic functions as a sum of sinusoidal components, making it valuable in signal processing, image compression, and various scientific applications.
 
-![fourier_series](https://latex.codecogs.com/svg.image?f(x)=a_0&plus;\sum_{n=1}^{\infty}a_n\cos\left(\frac{n\pi&space;x}{L}\right)&plus;\sum_{n=1}^{\infty}b_n\sin\left(\frac{n\pi&space;x}{L}\right))
+![Fourier_series](https://latex.codecogs.com/svg.image?f(x)=a_0&plus;\sum_{n=1}^{\infty}a_n\cos\left(\frac{n\pi&space;x}{L}\right)&plus;\sum_{n=1}^{\infty}b_n\sin\left(\frac{n\pi&space;x}{L}\right))
 
 
 
@@ -51,8 +51,6 @@ The project relies on the following libraries:
 - The code is modularized for better organization and readability.
 
 - Docstrings and comments have been added to explain the purpose of classes, methods, and code blocks.
-
-- The README file serves as comprehensive documentation, providing an overview of the project, its structure, functionality, and usage instructions.
 
 
 
