@@ -1,4 +1,4 @@
-# fourier-series-visualization
+# Fourier-series-decomposer
 
 This project is aimed at creating an interactive program for visualizing the Fourier series decomposition of a given function with GUI. Fourier series decomposition allows representing periodic functions as a sum of sinusoidal components, making it valuable in signal processing, image compression, and various scientific applications.
 
